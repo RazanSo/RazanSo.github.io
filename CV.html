@@ -1,0 +1,113 @@
+<html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title> CV form </title>
+</head>
+
+<body>
+<h1> CV FORM <h1/>
+</hr>
+
+
+<h4> Personal Information</h4>
+<div>
+<form>
+<lable for="name">Name:
+</lable><br>
+<input type="text" id="name"
+name="name"><br>
+</div>
+<p1> Gender: </p1>
+<input type="radio"
+name="gender"value="male">
+Male
+<input type="radio"
+name="gender"value+"female">
+Female
+
+<div>
+<br>
+<lable for="phone"> Enter your phone number:</lable>
+
+<input type="tel" id="phone"
+name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+<small>Format:555-55-555</small>
+</div>
+<div>
+<br>
+<lable for="your linkedin page">Your linkedin page:
+</lable>
+<input type="link" id="your linkedin page"
+your linkedin page="your linkedin page">
+
+Email
+<input type="email">
+</div>
+
+<div>
+<br>
+Years of experience(between 3 and 10):
+<input type="number" min="3" max="10"
+name="years of experience" required/>
+</div>
+
+Expected Salary:
+<class="slider">
+<input type="range" min="4000" max="10000" value="0" oninput="rangeValue.innerText = this.value"><p id="rangeValue">0</p>
+
+<br>
+<p1> Language: </p1>
+<br>
+<input type="radio"
+name="Language"value="Arabic">
+Arabic
+<br>
+<input type="radio"
+name="Language"value+"English">
+English
+
+<div>
+<br>
+<lable for="CV"> Upload your CV:</lable>
+<form action="/action_page.php">
+<input type="file" id="myFile" name="filename">
+</form>
+</div>
+
+<br>
+The nearst month you can start work
+<input type="month" id="month">
+
+<div>
+<br>
+The nearst week you can start work
+<input type="week" id="week">
+</div>
+
+<br>
+The best time to work
+<input type="time" id="time">
+
+<div>
+<br>
+<lable for="major">Major:
+</lable>
+<input type="text" id="major"
+major="major"><br>
+</div>
+
+<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<div>
+<br>
+Why you want to work with us?
+<br>
+<textarea name="comment" id="comment" style="font-family:sans-serif;font-size:1.2em;">
+</textarea>
+</div>
+<input type="submit" value="Submit">
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
