@@ -2,10 +2,10 @@
 
 <head>
 <title> My Website </title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
-<body>
+<body class="index">
 <h1> Razan Alotaibi - 442670042<h1/>
 <hr>
 <img src="C:\Users\rsadu\Desktop\3programlanguage.png" alt="3 program language" width="350" height="200">

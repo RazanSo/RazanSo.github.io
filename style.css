@@ -1,0 +1,62 @@
+
+body {
+    background-image: url("C:\Users\rsadu\Desktop\3programlanguage.png");
+    background-position: top right;
+}
+
+    body.CV {
+        background-color: gainsboro;
+    }
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkblue;
+}
+
+h3 {
+    color: darkblue;
+}
+
+legend {
+    color: blue;
+}
+
+header {
+    color: forestgreen;
+    padding: 30px;
+    border: 5px solid black;
+    margin: 100px
+}
+
+header{
+    color: forestgreen;
+    padding: 30px;
+    border: 5px solid black;
+    margin: 100px
+}
+
+p {
+    color: darkgreen;
+    font-size:small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:link{
+    color:red;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+    text-decoration:underline;
+}
+
