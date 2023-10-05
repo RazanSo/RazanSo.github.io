@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title> JavaScript example 2</title>
+<meta charset="utt-8">
+<script>
+function turnOff(){
+document.getElementById('i').src="pic_bulboff.gif";
+}
+function turnOn(){
+document.getElementById('i').src="pic_bulbon.gif";
+}
+</script>
+</head>
+<body>
+<button type="button" onclick="turnOff();"> Turn off the light </button>
+<img id="i" src="pic_bulboff.gif"> 
+<button type="button" onclick="turnOn();"> Turn on the light </button> 
+</body>
+</html>
