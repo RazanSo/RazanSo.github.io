@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dark/light Mode</title>
+
+  <style>
+    body {
+      background: white;
+      color: black;
+    }
+    .dark-mode {
+      background: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  
+  <button onclick="setMode('light')">Light Mode</button>
+  <button onclick="setMode('dark')">Dark Mode</button>
+  
+<h1>This is heading1</h1>
+<p> JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.
+<br>
+Many browsers use JavaScript as a scripting language for doing dynamic things on the web. Any time you see a click-to-show dropdown menu, extra content added to a page, and dynamically changing element colors on a page, to name a few features, you're seeing the effects of JavaScript.</p>
+
+  <script>
+    const body = document.body;
+    function setMode(mode) {
+      if (mode === 'dark') {
+        body.classList.add('dark-mode');
+      } else {
+        body.classList.remove('dark-mode');
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hours task</title>
+    <script>
+        function clicking() {
+            var name = document.getElementById("name").value;
+            var hour = new Date().getHours();
+
+            var text;
+
+            if (hour >= 0 && hour < 12) {
+                text= ("Good morning");
+            } else {
+                text= ("Good afternoon");
+            }
+
+            var message = text + ", " + name;
+            document.getElementById("text").textContent = message;
+        }
+    </script>
+</head>
+<body>
+    <label for="name">Enter Your Name:</label>
+    <input type="text" id="name">
+    <button onclick="clicking()">Click</button>
+    <p id="text"></p>
+</body>
+</html>
